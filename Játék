@@ -1,0 +1,82 @@
+Game Idea and Main Objective:
+
+The goal of the game is for the player to control the pizza delivery man on a motorbike and successfully deliver pizzas in an urban environment.
+
+There will be obstacles (such as cars, pedestrians, and streets) to avoid while trying to deliver the pizza on time.
+
+The delivery man can move continuously on the map, and the player can control him using the arrow keys.
+
+
+---
+
+Tools and Technology:
+
+Engine: Godot Engine – A user-friendly, open-source game engine for both 2D and 3D games.
+
+Programming Language: GDScript (a simple Python-like language used by Godot).
+
+Platform: The game will be developed for the web, so it can be exported to HTML5.
+
+
+
+---
+
+Game Structure:
+
+1. Characters and Game Elements:
+
+Motorbike Delivery Man: The main character, a pizza delivery man riding a motorbike.
+
+Pizzas: Items that the delivery man picks up and delivers to specific destinations.
+
+City Map: Includes roads, houses, and obstacles like cars and pedestrians. The player must avoid these while navigating the city.
+
+Delivery Destinations: Houses where the pizza needs to be delivered.
+
+
+
+---
+
+2. Controls:
+
+The player controls the motorbike with the arrow keys:
+
+Up: Accelerate forward.
+
+Down: Slow down or reverse.
+
+Left: Turn left.
+
+Right: Turn right.
+
+
+
+---
+
+3. Gameplay:
+
+Mission: The player receives an address (or a compass) guiding them where to deliver the pizza.
+
+Timer: Each mission has a time limit. If the player doesn't reach the destination in time, they lose the pizza.
+
+Scoring: Points are awarded for each successful delivery. Factors like delivery time, speed, and obstacle avoidance impact the score.
+
+
+
+---
+
+4. Obstacles:
+
+Cars: Moving obstacles on the road. Colliding with them will slow you down.
+
+Pedestrians: Walking along the street. Hitting them results in a point penalty.
+
+
+
+---
+
+5. Sounds and Graphics:
+
+Graphics Style: Simple, cartoonish city with roads, buildings, and a motorbike character. Free asset packs or custom graphics can be used.
+
+Sound Effects: Motorbike sounds, a bell ring when delivering the pizza, and collision sounds when hitting cars or pedestrians.
